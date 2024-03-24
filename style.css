@@ -1,0 +1,19 @@
+#pokemons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .pokemon {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+  }
+
+  .pokemon img {
+    display: block;
+    margin: 0 auto;
+  }
